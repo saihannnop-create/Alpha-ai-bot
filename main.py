@@ -8,8 +8,8 @@ intents.message_content = True
 bot = commands.Bot(command_prefix="!", intents=intents)
 
 # Cloud settings se Keys read karna
-DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+DISCORD_TOKEN = os.getenv("MTU0MjYwNDc2NDkyMjExODM1NA.G1SZuL.-z4sUALCc4EI7kV4w3Pu6H0oZk-U-Dj_4bdJi4")
+OPENAI_API_KEY = os.getenv("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")
 
 client = OpenAI(api_key=OPENAI_API_KEY)
 
